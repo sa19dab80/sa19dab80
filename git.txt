@@ -50,3 +50,5 @@ git fetch origin
 git branch --delete Ram
 git branch -D Ram
 
+git checkout filename  -- if file is delete, but you already commited it before deleting it, then fire the command you will get it back.
+
