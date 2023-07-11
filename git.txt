@@ -51,4 +51,10 @@ git branch --delete Ram
 git branch -D Ram
 
 git checkout filename  -- if file is delete, but you already commited it before deleting it, then fire the command you will get it back.
+git checkout -f -- it will do all the files.
+
+git diff -- it will compare working area with staging area.
+
+and once you have done git add -A --then there will be no difference, since file is staged and ready to commi
+
 
