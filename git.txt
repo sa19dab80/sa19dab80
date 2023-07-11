@@ -71,4 +71,6 @@ branching means -- creating your own copy.
 
 git merge branchname -- first come to the branch where you want to merge, like i want to merge my feature1 branch to master branch.
 
+git remote -v  -- will tell you the complete url
+
 
