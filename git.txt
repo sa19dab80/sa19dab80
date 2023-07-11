@@ -65,4 +65,8 @@ git rm --cached filename
 
 git status -s -- it will tell you , what is modified, GREEN M will show modified in staging area, RED M will show modified in working area.
 
+ignore/ -- slash means its a folder.
+
+branching means -- creating your own copy.
+
 
