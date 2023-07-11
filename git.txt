@@ -1,0 +1,52 @@
+git config --global user.name "Rajneesh"
+git config --global user.email "rajneesh.dabral@infosys.com"
+
+git config --global user.name
+git config --global user.email
+
+ls -lart
+
+
+Git init -- to make the folder working for git
+git add . -- to make sure git is able to track every files in the folder
+git status -- you check tracked, staging status
+git reset -- makes all files untracked.
+.gitignore  -- you can add all files which you dont want to add in git hub, you can use *.html 
+git commit -m "description of commit files"   here -m is a message or comment.
+git push -u origin master
+git remote paste here your repo location
+git clone https://github.com/niltonpinheiro/AlwaysOn-Performance-Dashboard.git    --using this you can download the complete code to your local computer
+
+Before you push changes to github, make sure to pull it first.
+<<<<<<< HEAD
+
+git pull origin master
+
+then
+
+do git push origin master
+
+
+=======
+>>>>>>> 5785b2fa70d9994d42f06fe13dfc2608fe1b92c3
+
+git pull origin master
+
+then
+
+do git push origin master
+
+git branch -- to list all the branchess
+git checkout branchname  -- to switch to specific branch
+
+git branch branchname -- this command will create the new branch
+
+how to merge with master
+1. git checkout master
+2. git pull origin master  -- may be somebody changed into master origin at github.
+
+git fetch origin
+
+git branch --delete Ram
+git branch -D Ram
+
