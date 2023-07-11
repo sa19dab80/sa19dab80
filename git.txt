@@ -59,4 +59,7 @@ and once you have done git add -A --then there will be no difference, since file
 
 git diff --stage
 
+git commit -a -m "add"
+
+
 
